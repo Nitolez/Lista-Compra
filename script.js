@@ -34,9 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    //Evento limpiar todo el localStorage
-
-
     //Funciones
     //Función pintar lista de productos stock
     const pintarLista = () => {
@@ -103,12 +100,8 @@ document.addEventListener('DOMContentLoaded', () => {
         pintarCarrito();
     };
 
-    /*pintarCarrito 
-    innerHTML = '';
-    pintar*/
+    //Llamadas a funciones
     pintarLista();
-
-
     pintarCarrito();
 
 });//LOAD
