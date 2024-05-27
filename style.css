@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 0% 5% 5% 5%;
+ }
+ #limpiar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+ #clear{
+    width: 50%;
+    height: 30px;
+ }
+ 
+ 
+ #productos{
+    background-color: blueviolet;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+ }
+ li{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+ }
+ #carrito{
+    background-color: blueviolet;
+ }
+ h2{
+    text-align: center;
+    margin: 5% 20%;
+ }
+ 
